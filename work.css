@@ -1,0 +1,179 @@
+body{
+    background-image: url(fondo.jpg);
+    font-family: all;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+#cosmo{
+	/*width=70%¨;*/
+	width: 1000px;
+	margin: 0px auto;
+	border: 1px solid transparent;
+	background-image: fondo.jpg;
+	text-align: left;
+	color: black;
+	border-bottom: 3px solid transparent;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+	float:  left;
+}
+#menu a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 20px 40px;
+}
+#menu{
+	background: black;
+	width: 1000px;
+	height: 52px;
+}
+.barra{
+	color: red;
+	padding: 20px 0 0 0;
+}
+#menu a:hover{
+	color: yellow;
+	background: black;
+}
+#logro{
+	/*width=70%¨;*/
+	width: 1100px;
+	margin: 0px auto;
+	border: 1px solid transparent;
+	text-align: center;
+	color: white;
+	border-bottom: 3px solid transparent;
+	font-family: Times New Roman;
+}
+.principal{
+	width:200px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px black;
+	transform: rotate(0deg);
+	transition: all .3s;
+}
+.maximo{
+	text-align: center;
+	font-size: xx-large;
+	text-shadow: 7px 5px 5px red;
+}
+.negocio{
+	text-align: left;
+	font-size: x-large;
+	text-shadow: 7px 5px 5px blue;
+}
+.real{
+	text-align: left;
+	font-size: medium;
+	text-shadow: 7px 5px 5px green;
+}
+.como{
+	text-align: center;
+	font-size: xx-large;
+	text-shadow: 7px 5px 5px red;
+}
+.fachada{
+	text-align: left;
+	font-size: x-large;
+	text-shadow: 7px 5px 5px blue;
+}
+.plural{
+	text-align: center;
+	font-size: xx-large;
+	text-shadow: 7px 5px 5px red;
+}
+.quien{
+	text-align: left;
+	font-size: x-large;
+	text-shadow: 7px 5px 5px blue;
+}
+.imagen{
+	width: 97%;
+	height: 220px;
+	padding: 20px 20px;
+	background-image: fondo.jpg;
+	text-shadow: 7px 5px 5px green;
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+	border-radius: 5px;
+	text-align: justify;
+	font-size: xx-large;
+}
+.imagen img{
+	width: 200px;
+	height: 220px;
+	border-radius: 5px;
+	float: left	;
+	margin-right: 15px;
+}
+.mescla{
+	text-align: left;
+	font-size: x-large;
+	text-shadow: 7px 5px 5px blue;
+	font-family: Times New Roman;
+}
+.mapa{
+	text-align: center;
+	font-size: xx-large;
+	text-shadow: 7px 5px 5px red;
+	font-family: Times New Roman;
+}
+#hola{
+	/*width=70%¨;*/
+	width: 1100px; 	
+	margin: 0px auto;
+	border: 1px solid transparent;
+	background-image: fondo.jpg;
+	text-align: center;
+	color: white;
+    border-bottom: 3px transparent;
+	font-family: Times New Roman;
+	text-shadow: 7px 5px 5px darkmagenta;
+}
+.cambio{
+	text-align: left;
+	padding: 20px 40px;
+}
+.enlace-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: 20px 40px;
+	display: flex;
+	transition: all .5s;
+}
+.icon-facebook{
+	background: skyblue;
+}
+.icon:first-child{
+	border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+	padding-right: 3rem;
+	border-radius: 1 rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+.clearfix{
+	clear: both;
+}
